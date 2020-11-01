@@ -32,7 +32,7 @@ export type Ref = HTMLDivElement;
     ```
  * @returns JSX ELEMENT
  */
-const PositionedElement: React.FC<IProps> = forwardRef<Ref, IProps>(
+export const PositionedElement: React.FC<IProps> = forwardRef<Ref, IProps>(
   (props, ref) => {
     let [position, setPosition] = useState("relative");
 
@@ -97,4 +97,4 @@ const PositionedElement: React.FC<IProps> = forwardRef<Ref, IProps>(
   }
 );
 
-export default PositionedElement;
+// export default PositionedElement;

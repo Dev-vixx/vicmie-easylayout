@@ -12,7 +12,7 @@ interface Props {
  * @param Children
  * @summary this component is the basic component for list types
  */
-const ListItem: React.FC<Props> = ({
+export const ListItem: React.FC<Props> = ({
   children,
   type = "ul",
   noList,
@@ -47,7 +47,7 @@ const ListItem: React.FC<Props> = ({
   );
 };
 
-export default ListItem;
+// export default ListItem;
 
 interface IProps {
   title?: string;

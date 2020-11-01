@@ -1,10 +1,10 @@
 {
-  "name": "@dev-vixx/easylayout",
-  "version": "1.0.0",
+  "name": "@vicmie/easylayout",
+  "version": "1.0.7",
   "description": "a list of higher order components for easy layout on react-web",
   "main": "index.js",
   "scripts": {
-    "publish": "npm publish --access public"
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -28,8 +28,5 @@
     "react-scripts": "4.0.0",
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }

@@ -12,7 +12,7 @@ interface Props {
   className?: string;
 }
 
-const FlexLayout: React.FC<Props> = ({
+export const FlexLayout: React.FC<Props> = ({
   justifyContent,
   justifyItems,
   alignItems,
@@ -55,7 +55,7 @@ const FlexLayout: React.FC<Props> = ({
   );
 };
 
-export default FlexLayout;
+// export default FlexLayout;
 
 interface ChildProps {
   justifySelf?: string;
