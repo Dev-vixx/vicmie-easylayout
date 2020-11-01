@@ -1,5 +1,5 @@
 {
-  "name": "easylayout",
+  "name": "@vicmie/easylayout",
   "version": "1.0.0",
   "description": "a list of higher order components for easy layout on react-web",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "sdsdsds"
+    "url": "https://github.com/Dev-vixx/easylayout.git"
   },
   "keywords": [
     "easylayout"
