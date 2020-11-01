@@ -1,5 +1,5 @@
 {
-  "name": "@vicmie/easylayout",
+  "name": "@dev-vixx/easylayout",
   "version": "1.0.0",
   "description": "a list of higher order components for easy layout on react-web",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dev-vixx/easylayout.git"
+    "url": "https://github.com/Dev-vixx/vicmie-easylayout.git"
   },
   "keywords": [
     "easylayout"
@@ -23,11 +23,11 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
-    "animate.css": "^4.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
