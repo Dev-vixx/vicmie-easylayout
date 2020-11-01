@@ -1,0 +1,8 @@
+.flex {
+  display: flex;
+}
+
+.flex_child {
+  height: max-content;
+  flex: 0 1;   
+}
